@@ -122,7 +122,7 @@ export const Footer = () => {
                   href="mailto:info@gentlemanscut.de" 
                   className="text-muted-foreground hover:text-primary transition-colors text-sm"
                 >
-                  info@gentlemanscut.de
+                  info@mustershop.de
                 </a>
               </li>
             </ul>
