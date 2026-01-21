@@ -51,7 +51,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Adresse</h4>
                   <p className="text-muted-foreground">
-                    Musterstraße 123, 10115 Berlin
+                    Königstraße 73, 90402 Nürnberg
                   </p>
                 </div>
               </div>
@@ -66,7 +66,7 @@ export const ContactSection = () => {
                     href="tel:+4930123456789" 
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +49 30 123 456 789
+                    091199284458
                   </a>
                 </div>
               </div>
@@ -78,7 +78,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Öffnungszeiten</h4>
                   <p className="text-muted-foreground">
-                    Mo-Fr: 09:00 - 20:00 | Sa: 10:00 - 18:00
+                    Mo. - Sa. 09:00-20:00 Uhr
                   </p>
                 </div>
               </div>
@@ -90,7 +90,7 @@ export const ContactSection = () => {
                 Rechts unten Chat starten
               </Button>
               <Button variant="goldOutline" size="xl" asChild>
-                <a href="tel:+4930123456789">Jetzt Anrufen</a>
+                <a href="tel:091199284458">Jetzt Anrufen</a>
               </Button>
             </div>
           </AnimateOnScroll>
