@@ -13,7 +13,7 @@ const Contact = () => {
         <title>Kontakt & Termin | The Gentleman's Cut Berlin</title>
         <meta 
           name="description" 
-          content="Kontaktieren Sie The Gentleman's Cut in Berlin. Vereinbaren Sie Ihren Termin über unseren Chatbot oder rufen Sie uns an. Mo-Fr 09-20 Uhr, Sa 10-18 Uhr." 
+          content="Kontaktieren Sie Barber Style in Nürnberg. Vereinbaren Sie Ihren Termin über unseren Chatbot oder rufen Sie uns an. Mo-Sa 09-20 Uhr." 
         />
         <link rel="canonical" href="https://gentlemanscut.de/kontakt" />
         <script type="application/ld+json">
@@ -29,10 +29,10 @@ const Contact = () => {
             "priceRange": "€€",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Musterstraße 12",
-              "addressLocality": "Wien",
-              "postalCode": "1020",
-              "addressCountry": "AT"
+              "streetAddress": "Königstraße 73",
+              "addressLocality": "Nürnberg",
+              "postalCode": "90402",
+              "addressCountry": "DE"
             },
             "geo": {
               "@type": "GeoCoordinates",
@@ -41,21 +41,16 @@ const Contact = () => {
             },
             "areaServed": {
               "@type": "AdministrativeArea",
-              "name": "Wien"
+              "name": "Nürnberg"
             },
             "openingHoursSpecification": [
               {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
                 "opens": "09:00",
-                "closes": "19:00"
-              },
-              {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": "Saturday",
-                "opens": "09:00",
-                "closes": "17:00"
+                "closes": "20:00"
               }
+              
             ],
             "sameAs": [
               "https://www.google.com/maps?cid=1234567890",
@@ -138,10 +133,10 @@ const Contact = () => {
                       Oder rufen Sie uns direkt an:
                     </p>
                     <a 
-                      href="tel:+4930123456789" 
+                      href="tel:091199284458" 
                       className="block text-center text-primary font-semibold mt-2 hover:underline"
                     >
-                      +49 30 123 456 789
+                      091199284458
                     </a>
                   </div>
 
@@ -192,8 +187,8 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">Adresse</h3>
                         <p className="text-muted-foreground">
-                          Musterstraße 123<br />
-                          10115 Berlin
+                          Königstraße 73<br />
+                         90402 Nürnberg
                         </p>
                       </div>
                     </div>
@@ -205,10 +200,10 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">Telefon</h3>
                         <a 
-                          href="tel:+4930123456789" 
+                          href="tel:091199284458" 
                           className="text-muted-foreground hover:text-primary transition-colors"
                         >
-                          +49 30 123 456 789
+                          091199284458
                         </a>
                       </div>
                     </div>
@@ -235,9 +230,9 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">Öffnungszeiten</h3>
                         <ul className="text-muted-foreground space-y-1 text-sm">
-                          <li>Mo - Fr: 09:00 - 20:00</li>
-                          <li>Samstag: 10:00 - 18:00</li>
-                          <li>Sonntag: Geschlossen</li>
+                          <li>Mo - Sa: 09:00 - 20:00</li>
+                          
+                        <li>Sonntag: Geschlossen</li>
                         </ul>
                       </div>
                     </div>
