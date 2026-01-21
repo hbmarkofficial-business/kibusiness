@@ -32,7 +32,7 @@ export const HeroSection = () => {
             className="text-primary uppercase tracking-[0.4em] text-sm md:text-base font-medium opacity-0 animate-fade-up"
             style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}
           >
-            Premium Barbershop seit 2010
+            Ihr Premium Barbershop
           </p>
 
           {/* Main Headline */}
@@ -40,8 +40,8 @@ export const HeroSection = () => {
             className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-foreground leading-tight opacity-0 animate-fade-up"
             style={{ animationDelay: '400ms', animationFillMode: 'forwards' }}
           >
-            The Gentleman's
-            <span className="block text-gradient">Cut</span>
+            Barber Style
+            <span className="block text-gradient">Nürnberg</span>
           </h1>
 
           {/* Description */}
