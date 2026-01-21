@@ -63,7 +63,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Telefon</h4>
                   <a 
-                    href="tel:+4930123456789" 
+                    href="tel:091199284458" 
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     091199284458
@@ -78,7 +78,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Öffnungszeiten</h4>
                   <p className="text-muted-foreground">
-                    Mo. - Sa. 09:00-20:00 Uhr
+                    Mo. - Sa. 09:00–20:00 Uhr
                   </p>
                 </div>
               </div>
@@ -95,21 +95,22 @@ export const ContactSection = () => {
             </div>
           </AnimateOnScroll>
 
-          {/* Right - Map Placeholder */}
+          {/* Right - Map */}
           <AnimateOnScroll animation="slide-left">
             <div className="relative">
               <div className="aspect-square lg:aspect-[4/5] rounded-sm overflow-hidden border border-border">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.927095063571!2d13.388860676897547!3d52.51962593590867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851c655f20989%3A0x26bbfb4e84674c63!2sBerlin%20Mitte!5e0!3m2!1sde!2sde!4v1703000000000!5m2!1sde!2sde"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.8984580156325!2d11.07820457689239!3d49.44863615898781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f577dba3fe8fb%3A0xf35014ab621cb12b!2sBarber%20Style%20N%C3%BCrnberg!5e0!3m2!1sde!2sde!4v1769024008379!5m2!1sde!2sde"
                   width="100%"
                   height="100%"
                   style={{ border: 0, filter: 'grayscale(100%) contrast(1.2)' }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Standort The Gentleman's Cut"
+                  title="Standort Barber Style Nürnberg"
                 />
               </div>
+
               {/* Overlay Card */}
               <div className="absolute -bottom-6 -left-6 bg-card border border-border rounded-sm p-6 shadow-soft max-w-xs">
                 <p className="font-display text-lg text-foreground mb-2">
@@ -126,3 +127,4 @@ export const ContactSection = () => {
     </section>
   );
 };
+
